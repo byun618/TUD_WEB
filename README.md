@@ -1,106 +1,21 @@
-TUD_WEB
-=============
+# TUD_WEB
 
-This is our pair **web** project that have some requirements.
+## 목차
+[1. 프로젝트 개요](#프로젝트-개요)   
+[2. 개발 환경](#개발-환경)  
+[3. 개발 파트](#개발-파트)  
+[4. 개발 리뷰](#개발-리뷰)  
+[5. Getting Started](#Getting-Started)
 
-We made a web page for **selling second-hand items**.
+## 프로젝트 개요
+2019/2 아일랜드 더블린 공과 대학([TUDublin](https://www.tudublin.ie/))에서 교환학생으로 있을 때, Web Development 수업에서 기말과제로 제출했던 프로젝트이다.
 
-Loads of files and functions it would provide.
+[Pair Project 2019.pdf](https://github.com/yunobro/TUD_WEB/files/5480641/Pair.Project.2019.pdf)
 
-Table of contents:
+## 개발 환경
 
-* Usage instructions
+## 개발 파트
 
-* Requirements
+## 개발 리뷰
 
-* Contributing
-
-
-
-Usage
-=============
-### step 1 : Download TUD file
-
-```git clone https://github.com/yunobro/TUD_WEB```
-
-### step 2 : Add two files to access
-
-#### 1.TUD/public/.htaccess 
-
-```Options -Multiviews``` 
-
-```RewriteEngine on```
-
-```RewriteBase /TUD/public```
-
-```RewriteCond %{REQUEST_FILENAME} !-d```
-
-```RewriteCond %{REQUEST_FILENAME} !-f```
-
-```RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]```
-
-#### 2.TUD/app/.htaccess
-
-```Options -Indexes```
-
-
-
-### step 3 : Run XAMPP
-
-Run XAMPP sever and mount that memory 
-
-you should move the file TUD to server
-
-For example
-
-```mv ./TUD nfs://192.168.64.2/opt/lampp/htdocs```
-
-
-### step 4 : Make database tables
-
-#### 1.Enter phpmyadmin
-
-#### 2.Make schema named **Second_market**
-
-#### 3.Make tables
-
-* member
-
-```DROP TABLE IF EXISTS `member`;```
-
-```CREATE TABLE `member` ( `id` varchar(45) NOT NULL, `pw` varchar(45) NOT NULL, `mail` varchar(30) NOT NULL, `addr` varchar(20) NOT NULL, `city` varchar(45) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
-
-* board
-
-```DROP TABLE IF EXISTS `board`;```
-
-```CREATE TABLE `board` ( `board_id` int(11) NOT NULL, `title` varchar(50) NOT NULL, `content` varchar(300) NOT NULL, `author` varchar(10) NOT NULL, `date` date NOT NULL, `hit` int(11) NOT NULL, `file` varchar(100) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
-
-* reply
-
-```DROP TABLE IF EXISTS `reply`;```
-
-```CREATE TABLE `reply` ( `reply_id` int(11) NOT NULL, `board_id` int(11) NOT NULL, `author` varchar(10) NOT NULL, `content` varchar(300) NOT NULL, `date` datetime NOT NULL DEFAULT current_timestamp() ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;```
-
-### step 5 : Access to web page we made
-
-Type the web site 
-
-http://localhost:8080/TUD/public/
-
-Requirements
-=============
-
-
-Contributing
-=============
-
-If you want to contribute to TUD_WEB, you can find more information by sending email to us
-
-Yunhyeong Seo
-
-D19123743@mytudublin.ie
-
-Sanghyun Byun
-
-D19123706@mytudublin.ie
+## Getting Started
