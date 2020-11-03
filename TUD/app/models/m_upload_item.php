@@ -54,8 +54,13 @@
                     }
                 }
             }
-            
-            $query = "insert into board (title, content, author, date, hit, file) values ('$this->title', '$this->content', '$this->author', '$this->date', 0, '$this->file_name')";
+
+            $query = "select count(*) as cnt from board";
+            $result = $this->connect->query($query);
+            $row = mysqli_fetch_assoc($result);
+            $id = $row['cnt'];
+
+            $query = "insert into board (board_id, title, content, author, date, hit, file) values ('$id', '$this->title', '$this->content', '$this->author', '$this->date', 0, '$this->file_name')";
 
             if($this->uploadOk == 1) {
                 $result = $this->connect->query($query);
