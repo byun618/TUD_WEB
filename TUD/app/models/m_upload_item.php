@@ -54,6 +54,7 @@
                     }
                 }
             }
+            
             $query = "insert into board (title, content, author, date, hit, file) values ('$this->title', '$this->content', '$this->author', '$this->date', 0, '$this->file_name')";
 
             if($this->uploadOk == 1) {
