@@ -1,19 +1,21 @@
 # TUD_WEB
 
 ## 목차
-[1. 프로젝트 개요](#프로젝트-개요)   
-[2. 개발 환경](#개발-환경)  
-[3. 개발 파트](#개발-파트)  
-[4. 개발 리뷰](#개발-리뷰)  
+[1. 프로젝트 개요](#프로젝트-개요)     
+[2. 개발 리뷰](#개발-리뷰)   
+[3. 개발 환경](#개발-환경)   
+[4. 개발 파트](#개발-파트)   
 [5. Getting Started](#Getting-Started)
 
-## 프로젝트 개요
+## 프로젝트 개요 (2019/10 - 2019/11)
 ##### fork from : https://github.com/yunobro/TUD_WEB
 * 개요  
-2019/2 아일랜드 더블린 공과 대학([TUDublin](https://www.tudublin.ie/)), Web Development & Deployment 수업 기말과제 프로젝트. [Pair Project 2019.pdf]
-(https://github.com/yunobro/TUD_WEB/files/5480641/Pair.Project.2019.pdf). 2명이서 팀을 이뤄 진행    
+2019/2 아일랜드 더블린 공과 대학([TUDublin](https://www.tudublin.ie/)), Web Development & Deployment 수업 [기말과제 프로젝트](https://github.com/yunobro/TUD_WEB/files/5480641/Pair.Project.2019.pdf). 2명이서 팀을 이뤄 진행    
 * 소개  
 하나의 중고거래 사이트 개발
+
+## 개발 리뷰
+개발 난이도는 비교적 어렵지 않았으나, 생소한 PHP를 다룬다는 점에서 조금은 힘든점이 있었다. 하지만 새로운 언어를 배운다는 점에서 굉장히 흥미로운 시간이였다. Team Mate 한명과 해서 2명으로 팀을 이루어서 진행하였으나, 규모가 작아 협업의 어려움은 크게 없었다. 또한, Software Engineering에서 배운 MVC 패턴을 직접 구현해 본 첫 개발이였다. 아쉬운 점은 Git에 대해 무지하던 때라 그냥 저장소 용도로만 사용한 점이 너무 아쉽다.
 
 ## 개발 환경
 * [XAMPP](https://www.apachefriends.org/index.html)
@@ -44,9 +46,6 @@
 ### 데모
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/27637757/97980390-0828c180-1e14-11eb-88d3-aa3bb995946a.gif)    
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/27637757/97980485-33131580-1e14-11eb-9975-a27efe73feca.gif)
-
-## 개발 리뷰
-개발 난이도는 비교적 어렵지 않았으나, 생소한 PHP를 다룬다는 점에서 조금은 힘든점이 있었다. 하지만 새로운 언어를 배운다는 점에서 굉장히 흥미로운 시간이였다. Team Mate 한명과 해서 2명으로 팀을 이루어서 진행하였으나, 규모가 작아 협업의 어려움은 크게 없었다. 또한, Software Engineering에서 배운 MVC 패턴을 직접 구현해 본 첫 개발이였다. 아쉬운 점은 Git에 대해 무지하던 때라 그냥 저장소 용도로만 사용한 점이 너무 아쉽다.
 
 ## Getting Started
 1. [XAMPP 설치](https://www.apachefriends.org/index.html)
